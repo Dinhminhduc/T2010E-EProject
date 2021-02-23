@@ -1,0 +1,72 @@
+.content .bill-L h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-group{
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+input[type="text"]{
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+}
+input[name="email"]{
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+}
+input[type="number"]{
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+}
+input[name="Code"]{
+    width: 250px;
+}
+
+.check{
+    font-weight: 600;
+    color: silver;
+}
+.shipping{
+    width: 400px;
+}
+.shipping h4 {
+    font-weight: 600;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+}
+.shipping .payment-text{
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+}
+.shipping-text{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.button{
+    margin-top: 20px;
+}
+.button a {
+    font: bold 15px Arial;
+    background-color: red;
+    color: #333333;
+    padding: 10px 30px 10px 30px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.button a:hover{
+    background-color: black;
+    color: white;
+}
+
+

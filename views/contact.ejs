@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <%- include('stylesheet_contact')%>
+</head>
+<body>
+<section class="section">
+    <div class="row">
+
+        <div class="col-md-12">
+            <div id="map">
+
+            </div>
+        </div>
+    </div>
+</section>
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaj0mHlR-keu-9hsR6d-gB0L9BclG04rk&callback=initMap&libraries=&v=weekly"
+        defer
+></script>
+<script>
+    navigator.geolocation.getCurrentPosition(initMap)
+    let map;
+    function initMap(position) {
+        let current;
+        if(window.localStorage.getItem("position")){
+            current = window.localStorage.getItem("position");
+            current = JSON.parse(current);
+        }else{
+
+
+            current = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+            }
+            window.localStorage.setItem("position",JSON.stringify(current));
+        }
+        map = new google.maps.Map(document.getElementById("map"), {
+            center: current,
+            zoom: 16,
+        });
+        const marker = new google.maps.Marker({
+            position: current,
+            map: map,
+        })
+    }
+</script>
+<DIV class="container">
+    <div class="col-md-4">
+        <div class="h-leave">
+            <h4>LEAVE A MESSAGE</h4>
+        </div>
+        <div class="form-group">
+            <label>Name*<br>
+                <input class="ip-text" name="fullname" required type="text" placeholder="First Name"/>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Email Address <br>
+                <input name="email" class="ip-text" required type="email" placeholder="Type your Email"/>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Phone numbers*<br>
+                <input class="ip-number" name="phone" required type="number" placeholder="Your phone"/>
+            </label>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="h-leave">
+            <h4> <br></h4>
+        </div>
+        <div class="comment">
+            <label>comment<br>
+                <textarea class="area-cmt"></textarea>
+            </label>
+        </div>
+        <div class="button">
+            <a href="#" style="text-decoration: none">Submit</a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="h-leave">
+            <h4>CONTACT DETAIL</h4>
+        </div>
+        <div class="box-content">
+            <div class="email">
+                <img src="/img/email.PNG">
+            </div>
+            <div class="text-email">
+                Email <br>
+                nguyentuanlinh@gmail.com
+            </div>
+        </div>
+        <div class="box-content">
+            <img src="/img/phone.PNG">
+            <div class="text-email">
+                Phone <br>
+                84 37755828
+            </div>
+        </div>
+        <div class="box-content">
+            <img src="/img/loc.PNG">
+            <div class="text-email">
+                Mail Office <br>
+                Doi Can<br>
+            </div>
+        </div>
+    </div>
+</DIV>
+</body>
+</html>
