@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <%- include('stylesheet_checkout')%>
+</head>
+<body>
+<%- include('menu')%>
+    <div class="container">
+        <div class="content">
+            <div class="bill-L">
+                <h1>Billing Adress</h1>
+                <hr>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>First Name*<br>
+                        <input class="ip-text" name="fullname" required type="text" placeholder="Your name"/>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Email Address <br>
+                        <input name="email" class="ip-text" required type="email" placeholder="Type your Email"/>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Address <br>
+                        <input name="address" class="ip-text" required type="text" placeholder="Street at appartment number"/>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Postcode/ZIP<br>
+                        <input class="ip-number" name="Postcode" required type="number" placeholder="Your post code"/>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="check"><input type="checkbox">
+                        Create an account?
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="check"><input type="checkbox">
+                        Ship to different address?
+                    </label>
+                </div>
+                <div class="shipping">
+                    <h4>SHIPPING METHOD</h4>
+                    <p class="shipping-text">
+                        Flat rate <br>
+                        Fixed $50.00
+                    </p>
+                </div>
+
+                <div class="shipping">
+                    <h4>Discount Codes</h4>
+                </div>
+                <div class="form-group code">
+                    <label>Enter Your Coupon Code: <br>
+                        <input name="Code" class="ip-code" required type="text" placeholder=" "/>
+                    </label>
+                </div>
+                <div class="button">
+                    <a href="#" style="text-decoration: none">Apply</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Last Name*<br>
+                        <input class="ip-text" name="Postcode" required type="text" placeholder="Your last name"/>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Phone numbers*<br>
+                        <input class="ip-number" name="phone" required type="number" placeholder="Your phone"/>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Country*<br>
+                        <input class="ip-text" name="country" required type="text" placeholder="United States"/>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Town/City*<br>
+                        <input class="ip-text" name="City" required type="text" placeholder="City Name"/>
+                    </label>
+                </div>
+                <div class="shipping">
+                    <h4>PAYMENT METHOD</h4>
+                    <p class="payment-text">
+                        Check/Money order <br>
+                        Credit Card (saved)
+                        Credit Card (saved)
+                    </p>
+                </div>
+                <div>
+                    <div class="form-group">
+                        <label class="check"><input type="checkbox">
+                            Direct bank transfer
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="check"><input type="checkbox">
+                            Cash on delivery
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="check"><input type="checkbox">
+                            Paypal
+                        </label>
+                    </div>
+                    <p>
+                        You can pay with your credit<br>
+                        card if you don't have a paypal account
+                    </p>
+                </div>
+                <div class="button">
+                    <a href="#" style="text-decoration: none">Place Order Now</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

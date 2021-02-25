@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <%- include('stylesheet_shoppingcart')%>
+
+
+</head>
+<body>
+<%- include('menu')%>
+    <div class="container">
+        <div class="Home-l col-md-12">
+            <h3>HOME / <span>SHOPPING CART</span></h3>
+        </div>
+        <div class="col-md-8">
+            <table border="1" class=" table table-hover">
+                <thead>
+                <th></th>
+                <th>Produc Name</th>
+                <th>Unit Price</th>
+                <th>Quantity</th>
+                <th>SubTotal</th>
+
+                </thead>
+                <tbody class="text-center">
+                <tr>
+                    <td><img src="img/watches.png"></td>
+                    <td>Modem Watches</td>
+                    <td>$229</td>
+                    <td class="qty">
+                        <div>
+                            <input type="button" value="-" class="qty-minus">
+                            <input type="number" value="1" class="qty">
+                            <input type="button" value="+" class="qty-plus">
+                        </div>
+                    </td>
+                    <td>229</td>
+
+                </tr>
+                <tr>
+                    <td><img src="img/camera.png"></td>
+                    <td>Photo Camera</td>
+                    <td>$229</td>
+                    <td class="qty">
+                        <div>
+                            <input type="button" value="-" class="qty-minus">
+                            <input type="number" value="1" class="qty">
+                            <input type="button" value="+" class="qty-plus">
+                        </div>
+                    </td>
+                    <td>229</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="button">
+                        <a href="#" style="text-decoration: none">Continue</a>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="button">
+                            <a href="#" style="text-decoration: none">Clear</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button">
+                            <a href="#" style="text-decoration: none">Update</a>
+                        </div>
+                    </td>
+
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <div class="box-content">
+                <div class="mini-box">
+                    <div>
+                        <h4>ORDER SUMMARY</h4>
+                        <hr>
+                    </div>
+                    <div class="checkout-content">
+                        <span class="order-left">
+                            Subtotal:
+                        </span>
+                        <span class="detail">$450.00</span>
+                        <span class="order-left">
+                            Shipping:
+                        </span>
+                        <span class="detail">Free Shipping</span>
+                    </div>
+                    <hr>
+                    <div class="checkout-content">
+                    <span class="order-left">
+                            <b>Total:</b>
+                        </span>
+                    <span class="detail">$450.00</span>
+                    </div>
+                    <div class="form-group">
+                        <label class="check"><input type="checkbox">
+                            I have promo code
+                        </label>
+                    </div>
+                    <div class="button1">
+                        <a href="#" style="text-decoration: none">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="col-md-12">
+            <div class="suggested-header">
+                <h3>You May Also Interested</h3>
+            </div>
+        </div>
+<!--        box product-->
+        <div class="box-product" onclick="openPopup()" >
+            <img src="img/1600436436_sr6-44mm-nhoYm-xaYm.png"/>
+            <h4>Modern Watches</h4>
+            <h4><span>$229.00</span></h4>
+            <div class="eye">
+                <a onclick="openPopup()" class="mini-eye" href="#"><i class="fas fa-eye"></i></a>
+            </div>
+        </div>
+        <div class="box-product" onclick="openPopup()" >
+            <img src="img/1600436436_sr6-44mm-nhoYm-xaYm.png"/>
+            <h4>Modern Watches</h4>
+            <h4><span>$229.00</span></h4>
+            <div class="eye">
+                <a onclick="openPopup()" class="mini-eye" href="#"><i class="fas fa-eye"></i></a>
+            </div>
+        </div>
+        <div class="box-product" onclick="openPopup()" >
+            <img src="img/1600436436_sr6-44mm-nhoYm-xaYm.png"/>
+            <h4>Modern Watches</h4>
+            <h4><span>$229.00</span></h4>
+            <div class="eye">
+                <a onclick="openPopup()" class="mini-eye" href="#"><i class="fas fa-eye"></i></a>
+            </div>
+        </div>
+<!--popup-->
+        <div id="bg-fade"></div>
+        <div id="popup">
+            <form method="post" action="#">
+                <div class="form-group text-right">
+                    <i class="fa fa-window-close" onclick="closePopup()"></i>
+                </div>
+                <div class="form-group col-md-4">
+                    <img src="img/camera.png">
+                </div>
+                <div class="test-descrip col-md-8">
+                    <h3>Photo Camera</h3>
+                    <p>Description Our new HPB12 / A12 battery is rated at 2000mAh and designed to power up Black and Decker FireStorm line of 12V tools allowing...</p>
+                    <h3 class="price">$229.00</h3>
+                    <div class="inc-dec">
+                        <input type="button" value="-" class="qty-minus">
+                        <input type="number" value="1" class="qty">
+                        <input type="button" value="+" class="qty-plus">
+                        <div class="button1 button-add">
+                            <a href="#" style="text-decoration: none">Continue</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
