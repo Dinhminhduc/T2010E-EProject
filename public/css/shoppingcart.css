@@ -1,5 +1,7 @@
 th,td{
     border: none;
+    font-weight: 600;
+    vertical-align: center;
 }
 table{
     border: 1px solid #cccccc;
@@ -46,8 +48,12 @@ input[type="number"]{
     font-weight: 600;
     font-size: 12px;
 }
+.order-left{
+
+}
 .checkout-content .detail{
     float: right;
+    font-weight: 600;
 }
 .form-group{
     margin-top: 10px;
@@ -248,3 +254,11 @@ img{
 /*    transition-duration: 2s;*/
 /*    transition-delay: 2s;*/
 /*}*/
+.box-product h4{
+    font-weight: 600;
+}
+.box-product h4 span{
+    color: silver;
+    font-weight: 800;
+    font-size: 15px;
+}
