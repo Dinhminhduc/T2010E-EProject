@@ -140,6 +140,8 @@ img{
 .mini-eye:hover + .box-product{
     border: 1px solid red;
 }
+
+/*POP-UP*/
 #bg-fade {
     position: fixed;
     top: 0;
