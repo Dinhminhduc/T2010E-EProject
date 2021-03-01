@@ -8,7 +8,7 @@ body{
     font-size: 14px;
     color: #222222;
 }
-a{  
+a{
     text-decoration: none;
 }
 img{
@@ -132,12 +132,12 @@ img{
     line-height: 19px;
 }
 .onsale{
-     background-color: #e03737;
-     color: #fff;
-     font-size: 13px;
-     padding: 1px 10px;
-     border-radius: 3px;
- }
+    background-color: #e03737;
+    color: #fff;
+    font-size: 13px;
+    padding: 1px 10px;
+    border-radius: 3px;
+}
 .product-info{
     width: 49%;
     display: inline-block;
@@ -363,11 +363,11 @@ li{
     padding-top:15px;
 }
 .price-popup ins{
-     display: block;
-     font-size:20px;
-     color: #e03737;
-     text-decoration: none;
- }
+    display: block;
+    font-size:20px;
+    color: #e03737;
+    text-decoration: none;
+}
 .price-popup del{
     font-size:14px;
     text-decoration: line-through;

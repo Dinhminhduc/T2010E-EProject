@@ -36,5 +36,5 @@ app.get("/dem-so-nguoi",function(req,res){
     res.render("demo")
 });
 app.get("/test",function (req,res){
-    res.render("header")
+    res.render("Home")
 });
