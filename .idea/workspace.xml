@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58775346-79c0-4cfb-91fa-5f5c933d18a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/views/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/menu.ejs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ndYLfYHQ5Cr1s65K7niK7JkqcW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fpt aptech\T2010E-EProject\public" />
+      <recent name="D:\fpt aptech\T2010E-EProject\public\img" />
+      <recent name="D:\fpt aptech\T2010E-EProject\public\css" />
+      <recent name="D:\fpt aptech\T2010E-EProject\js" />
+      <recent name="D:\fpt aptech\T2010E-EProject\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58775346-79c0-4cfb-91fa-5f5c933d18a9" name="Default Changelist" comment="" />
+      <created>1611721379803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611721379803</updated>
+      <workItem from="1611721381068" duration="142000" />
+      <workItem from="1614041017827" duration="4053000" />
+      <workItem from="1614128169368" duration="36499000" />
+    </task>
+    <task id="LOCAL-00001" summary="ejs">
+      <created>1614090321755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614090321755</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ejs">
+      <created>1614128637430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614128637430</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ejs">
+      <created>1614130468009</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614130468009</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ejs">
+      <created>1614142854686</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614142854686</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ejs">
+      <created>1614227224357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614227224357</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ejs">
+      <created>1614242965989</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614242965989</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ejs">
+      <created>1614243709296</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614243709296</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ejs">
+      <created>1614244799665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614244799665</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ejs">
+      <created>1614250448750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614250448750</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ejs">
+      <created>1614648138415</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614648138415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejs" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1614648137687">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="425" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1614648137687" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1614250449764">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1614250449764" />
+    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614648266633">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1614648266633" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1614245293660">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1614245293660" />
+  </component>
+</project>
