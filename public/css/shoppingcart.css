@@ -177,6 +177,7 @@ img{
 }
 /*menu css*/
 .menu-l{
+    margin-top: 230px;
     height: 70px;
     background-color: #f5f5f5;
 }
