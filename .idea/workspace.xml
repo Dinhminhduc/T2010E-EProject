@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58775346-79c0-4cfb-91fa-5f5c933d18a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/views/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/menu.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/l1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/head.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shoppingcart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shoppingcart.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +26,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\fpt aptech\T2010E-EProject\public" />
       <recent name="D:\fpt aptech\T2010E-EProject\public\img" />
+      <recent name="D:\fpt aptech\T2010E-EProject\public" />
       <recent name="D:\fpt aptech\T2010E-EProject\public\css" />
       <recent name="D:\fpt aptech\T2010E-EProject\js" />
       <recent name="D:\fpt aptech\T2010E-EProject\img" />
@@ -44,7 +50,7 @@
       <updated>1611721379803</updated>
       <workItem from="1611721381068" duration="142000" />
       <workItem from="1614041017827" duration="4053000" />
-      <workItem from="1614128169368" duration="36499000" />
+      <workItem from="1614128169368" duration="38304000" />
     </task>
     <task id="LOCAL-00001" summary="ejs">
       <created>1614090321755</created>
@@ -116,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614648138415</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ejs">
+      <created>1614648275743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614648275743</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ejs">
+      <created>1614648437180</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614648437180</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,18 +147,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="ejs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1614648137687">
+    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1614648436151">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1614648137687" />
+    <state x="425" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1614648436151" />
+    <state x="152" y="68" key="MergeDialog" timestamp="1614648517864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="152" y="68" key="MergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1614648517864" />
+    <state x="438" y="191" key="MultipleFileMergeDialog" timestamp="1614648517876">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="438" y="191" key="MultipleFileMergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1614648517876" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1614250449764">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1614250449764" />
-    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614648266633">
+    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614648529615">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1614648266633" />
+    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1614648529615" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1614245293660">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

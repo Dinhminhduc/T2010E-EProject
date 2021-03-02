@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <%- include('stylesheet')%>
+</head>
+<body>
+<section class="header">
+    <div class="top-header col-md-12">
+        <div class="container">
+            <div class="content-left col-md-6">
+                <a href="#">Welcome to Dagon Shop</a>
+            </div>
+            <div class="content-right col-md-6">
+                <ul>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+                                <img src="/img/l1.png" height="16" width="20"/> English <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img src="../../Pictures/l2.jpg" height="15" width="20"/>Hungary</a></li>
+                                <li><a href="#"><img src="../../Pictures/l1.jpg" height="16" width="20"/>English</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+                                Dollar (US) <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li>Pound (GBP)</li>
+                                <li>Euro (EUG)</li>
+                                <li>Dollar (USD)</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="register">
+                        <a href="#"><i class="fas fa-user-alt"></i> Register/Sign in </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mid-header col-md-12">
+        <div class="container">
+            <div class="logo col-md-3">
+                <img src="/img/logo.png" height="43" width="131"/>
+            </div>
+            <div class="search-box-all col-md-5">
+                <div class="search-box">
+                    <div class="categories">
+                        <p>Categories <span class="caret"></span></p>
+                    </div>
+                    <div class="search-inbox">
+                        <p>Search keyword here...</p>
+                    </div>
+                    <div class="icon-search">
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cart col-md-4">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <p>Your Cart:$00.00</p>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
