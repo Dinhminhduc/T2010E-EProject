@@ -240,11 +240,13 @@ img{
 
 .dropdown-content a:hover {
     background-color: #dddddd;
+    z-index: 1;
 }
 
 .dropdown:hover ~ .dropdown-content{
     opacity: 1;
     transition-duration: 1s;
+
 }
 .dropdown-content:hover{
     opacity: 1;

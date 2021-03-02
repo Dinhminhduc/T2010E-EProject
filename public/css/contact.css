@@ -49,15 +49,15 @@ input[type="number"]{
     background-color: black;
     color: white;
 }
-.box-content {
+.box-contentl {
     margin-bottom: 15px;
     box-sizing: border-box;
     height: 50px;
 }
-.box-content img {
+.box-contentl img {
     position: absolute;
 }
-.box-content .text-email{
+.box-contentl .text-email{
     position: relative;
     left: 50px;
     top: 5px;

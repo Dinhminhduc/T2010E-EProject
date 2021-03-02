@@ -51,6 +51,7 @@ input[name="Code"]{
 }
 .button{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .button a {
     font: bold 15px Arial;
@@ -68,5 +69,6 @@ input[name="Code"]{
     background-color: black;
     color: white;
 }
+.content-checkout{}
 
 

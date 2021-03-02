@@ -9,8 +9,11 @@
     <%- include('stylesheet_checkout')%>
 </head>
 <body>
+<div class="container header-top">
+    <img src="/img/logo.png">
+</div>
 <%- include('menu')%>
-    <div class="container">
+    <div class="container content-checkout">
         <div class="content">
             <div class="bill-L">
                 <h1>Billing Adress</h1>
@@ -34,7 +37,7 @@
                 </div>
                 <div class="form-group">
                     <label>Postcode/ZIP<br>
-                        <input class="ip-number" name="Postcode" required type="number" placeholder="Your post code"/>
+                        <input class="ip-number" name="Postcode" required type="text" placeholder="Your post code"/>
                     </label>
                 </div>
                 <div class="form-group">
@@ -75,7 +78,7 @@
                 </div>
                 <div class="form-group">
                     <label>Phone numbers*<br>
-                        <input class="ip-number" name="phone" required type="number" placeholder="Your phone"/>
+                        <input class="ip-number" name="phone" required type="text" placeholder="Your phone"/>
                     </label>
                 </div>
                 <div class="form-group">
