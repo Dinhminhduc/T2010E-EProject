@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58775346-79c0-4cfb-91fa-5f5c933d18a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/l1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/head.ejs" afterDir="false" />
+    <list default="true" id="58775346-79c0-4cfb-91fa-5f5c933d18a9" name="Default Changelist" comment="ejs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shoppingcart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shoppingcart.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/checkout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/checkout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/checkout.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +28,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\fpt aptech\T2010E-EProject\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\fpt aptech\T2010E-EProject\public\img" />
       <recent name="D:\fpt aptech\T2010E-EProject\public" />
@@ -50,7 +49,7 @@
       <updated>1611721379803</updated>
       <workItem from="1611721381068" duration="142000" />
       <workItem from="1614041017827" duration="4053000" />
-      <workItem from="1614128169368" duration="38304000" />
+      <workItem from="1614128169368" duration="48096000" />
     </task>
     <task id="LOCAL-00001" summary="ejs">
       <created>1614090321755</created>
@@ -136,7 +135,35 @@
       <option name="project" value="LOCAL" />
       <updated>1614648437180</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ejs">
+      <created>1614650176786</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614650176786</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ejs">
+      <created>1614650542303</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614650542303</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ejs">
+      <created>1614666197406</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614666197406</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ejs">
+      <created>1614684123984</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614684123984</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,10 +174,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="ejs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="0" key="CommitChangelistDialog2" timestamp="1614648436151">
+    <state x="541" y="231" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614658437063">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1614648436151" />
+    <state x="541" y="231" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1614658437063" />
+    <state x="492" y="0" key="CommitChangelistDialog2" timestamp="1614684123347">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1614684123347" />
     <state x="152" y="68" key="MergeDialog" timestamp="1614648517864">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -159,14 +190,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="438" y="191" key="MultipleFileMergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1614648517876" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1614250449764">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1614684125562">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1614250449764" />
-    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614648529615">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1614684125562" />
+    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614684105338">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1614648529615" />
+    <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1614684105338" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1614245293660">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
