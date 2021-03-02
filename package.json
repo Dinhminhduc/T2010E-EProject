@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "t2011e_nodejs",
+=======
   "name": "nodejs",
+>>>>>>> origin/master
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +14,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+=======
     "@fortawesome/fontawesome-free": "^5.15.2",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0"
+>>>>>>> origin/master
   }
 }

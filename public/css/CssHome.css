@@ -86,6 +86,66 @@
     padding-right: 30px;
     padding-top: 15px;
 }
+#mydropdown{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+#mydropdown2{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+#mydropdown3{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+#mydropdown4{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+#mydropdown5{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+#mydropdown6{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+#mydropdown7{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 .nav-item a{
     color: white;
     font-size: 14px;
@@ -217,4 +277,106 @@
 .headphone-children{
     position: absolute;
 
+}
+.feature-product{
+    padding-top: 30px;
+}
+.title-feature-product {
+    float: left;
+    border-left: 3px solid #e03737;
+    padding: 7px 8px;
+}
+.title-feature-product p{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.all-list{
+    padding-left: 700px;
+}
+.tab-list a{
+    float: left;
+    border-bottom: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    list-style: none;
+}
+.all-feature-product{
+    position: relative;
+    padding-top: 40px;
+}
+.tab-all-products{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.tab-all-products.active{
+    display: block;
+    opacity: 1;
+}
+.navbar-link.active{
+    border-bottom: 3px solid red;
+}
+.product1-father{
+    padding-right: 10px;
+}
+.product1-children{
+    border: 1px solid darkgray;
+}
+.product1-children:hover{
+    border: 1px solid #e03737;
+}
+.product1-info{
+    padding: 0px 10px;
+}
+.product1-children h1{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+.product1-children p{
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+.product1-children i {
+    color:#f29f29;
+}
+.tab-2{
+    float: left;
+    padding-top: 20px;
+}
+.top-collection-father{
+    padding-top: 100px;
+}
+.top-collection{
+    background-image: url("../imgs/shopnow.PNG");
+    background-size: cover;
+    position: absolute;
+    padding: 30px 100px;
+}
+.top-collection h1{
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+.top-collection p{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+.button-shopnow{
+    background-color: #e03737;
+    color: white;
+    width: 100px;
+    margin-left: 680px;
+    padding-left: 13px;
+}
+.button-shopnow:hover{
+    background-color: black;
 }

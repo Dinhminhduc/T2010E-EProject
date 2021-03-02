@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/T2010E-EProject.iml" filepath="$PROJECT_DIR$/.idea/T2010E-EProject.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/t2011e_nodejs.iml" filepath="$PROJECT_DIR$/.idea/t2011e_nodejs.iml" />
+>>>>>>> origin/master
     </modules>
   </component>
 </project>
