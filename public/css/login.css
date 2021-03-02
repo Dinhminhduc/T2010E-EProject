@@ -8,7 +8,7 @@
     width: 450px;
     height: 30px;
 }
-input[name="email"]{
+input[name="email1"]{
     margin-top: 10px;
     width: 450px;
     height: 30px;
@@ -36,6 +36,7 @@ input[type="password"]{
 }
 .button-sub{
     margin-top: 110px;
+    margin-bottom: 20px;
 }
 .button a {
     font: bold 15px Arial;
