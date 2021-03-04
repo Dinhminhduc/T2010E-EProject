@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PageShop</title>
+    <%-include('stylesheet_shop')%>
+</head>
+<body>
+<header>
+<%-include('header')%>
+</header>
+<main class="shop-main">
+    <div class="container">
+        <article class="content">
+            <div class="post">
+                <div class="banner">
+                    <a href="#" class="banner-img">
+                        <img src="../imgs/Pictures/banner-product.jpg"/>
+                    </a>
+                    <div class="banner-inner">
+                        <h1>Top Staff Pick</h1>
+                        <h2>Best Watches Collection</h2>
+                        <a class="banner-link" href="#">Shop now</a>
+                    </div>
+                </div>
+                <div class="toolbar-product">
+                    <h3 class="title-product">Grid Category</h3>
+                    <div class="menu-option">
+                        <div class="menu">
+                            <select>
+                                <option>Sort by porpularity</option>
+                                <option>Name</option>
+                                <option>Price</option>
+                            </select>
+                            <select>
+                                <option>20 per page</option>
+                                <option>15 per page</option>
+                                <option>30 per page</option>
+                            </select>
+                            <i class="fas fa-bars">
+                                <span>List</span>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-list">
+                    <div class="products-items">
+                        <div class="product-img">
+                            <img src="../imgs/Pictures/p10.jpg" onclick="openPopup()"/>
+                            <span class="onsale">-30%</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <a href="#">Smartphone 4 GB </a>
+                                <span class="star-ratting">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span class="review">5 Review(s)</span>
+                                </span>
+                                <div class="product-infomation">
+                                    14’’ Class 15.6’’ Screen full offer supperior picture LED
+                                    <br/>
+                                    Display type: Full 1080 Color
+                                    <br/>
+                                    Chip set: Core i7
+                                    <br/>
+                                    Color: White
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info-price">
+                            <div class="stock-available">
+                                <span class="label-stock">Avability:</span>
+                                In stock
+                            </div>
+                            <span class="price">
+                                <ins>$259.00</ins>
+                                <del>$220.00</del>
+                            </span>
+                            <div class="single-add-to-cart">
+                                <a href="#" class="btn-add-to-cart">Add to cart</a>
+                                <a href="#" class="compare">
+                                    <i class="fas fa-exchange-alt">
+                                        Compare
+                                    </i>
+                                </a>
+                                <a href="#" class="wishlist">
+                                    <i class="far fa-heart">
+                                        Wishlist
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="products-list">
+                    <div class="products-items">
+                        <div class="product-img">
+                            <img src="../imgs/Pictures/p11.jpg" onclick="openPopup()"/>
+                            <span class="onsale">-50%</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <a href="#">Smartphone 4 GB </a>
+                                <span class="star-ratting">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span class="review">5 Review(s)</span>
+                                </span>
+                                <div class="product-infomation">
+                                    14’’ Class 15.6’’ Screen full offer supperior picture LED
+                                    <br/>
+                                    Display type: Full 1080 Color
+                                    <br/>
+                                    Chip set: Core i7
+                                    <br/>
+                                    Color: White
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info-price">
+                            <div class="stock-available">
+                                <span class="label-stock">Avability:</span>
+                                In stock
+                            </div>
+                            <span class="price">
+                                <ins>$299.00</ins>
+                                <del>$259.00</del>
+                            </span>
+                            <div class="single-add-to-cart">
+                                <a href="#" class="btn-add-to-cart">Add to cart</a>
+                                <a href="#" class="compare">
+                                    <i class="fas fa-exchange-alt">
+                                        Compare
+                                    </i>
+                                </a>
+                                <a href="#" class="wishlist">
+                                    <i class="far fa-heart">
+                                        Wishlist
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="products-list">
+                    <div class="products-items">
+                        <div class="product-img">
+                            <img src="../imgs/Pictures/p12.jpg"  onclick="openPopup()"/>
+                            <span class="onsale">New</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <a href="#">Smartphone 4 GB </a>
+                                <span class="star-ratting">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span class="review">5 Review(s)</span>
+                                </span>
+                                <div class="product-infomation">
+                                    14’’ Class 15.6’’ Screen full offer supperior picture LED
+                                    <br/>
+                                    Display type: Full 1080 Color
+                                    <br/>
+                                    Chip set: Core i7
+                                    <br/>
+                                    Color: White
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info-price">
+                            <div class="stock-available">
+                                <span class="label-stock">Avability:</span>
+                                In stock
+                            </div>
+                            <span class="price">
+                                <ins>$299.00</ins>
+                            </span>
+                            <div class="single-add-to-cart">
+                                <a href="#" class="btn-add-to-cart">Add to cart</a>
+                                <a href="#" class="compare">
+                                    <i class="fas fa-exchange-alt">
+                                        Compare
+                                    </i>
+                                </a>
+                                <a href="#" class="wishlist">
+                                    <i class="far fa-heart">
+                                        Wishlist
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="products-list">
+                    <div class="products-items">
+                        <div class="product-img">
+                            <img src="../imgs/Pictures/p14.jpg" onclick="openPopup()">
+                            <span class="onsale">-50%</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                <a href="#">Smartphone 4 GB </a>
+                                <span class="star-ratting">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span class="review">5 Review(s)</span>
+                                </span>
+                                <div class="product-infomation">
+                                    14’’ Class 15.6’’ Screen full offer supperior picture LED
+                                    <br/>
+                                    Display type: Full 1080 Color
+                                    <br/>
+                                    Chip set: Core i7
+                                    <br/>
+                                    Color: White
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info-price">
+                            <div class="stock-available">
+                                <span class="label-stock">Avability:</span>
+                                In stock
+                            </div>
+                            <span class="price">
+                                <ins>$299.00</ins>
+                                <del>$259.00</del>
+                            </span>
+                            <div class="single-add-to-cart">
+                                <a href="#" class="btn-add-to-cart">Add to cart</a>
+                                <a href="#" class="compare">
+                                    <i class="fas fa-exchange-alt">
+                                        Compare
+                                    </i>
+                                </a>
+                                <a href="#" class="wishlist">
+                                    <i class="far fa-heart">
+                                        Wishlist
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                    <span class="show-resuilt">
+                        Showing 1-8 of 12 result
+                    </span>
+                </nav>
+            </div>
+
+        </article>
+        <aside class="sidebar">
+            <div class="block subcribe">
+                <div class="filter-options">
+                    <div class="block-title">Shop By</div>
+                    <div class="block-content">
+                        <div class="filter-options-item filter-categori">
+                            <div class="filter-options-title">
+                                Categories
+                            </div>
+                            <div class="filter-options-content">
+                                <ul>
+                                    <li>
+                                        <label class="inline">
+                                            <input type="checkbox">
+                                            <span class="input"></span>
+                                            SmartPhone
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="inline">
+                                            <input type="checkbox">
+                                            <span class="input"></span>
+                                            Computer
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="inline">
+                                            <input type="checkbox">
+                                            <span class="input"></span>
+                                            Body Parts
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="inline">
+                                            <input type="checkbox">
+                                            <span class="input"></span>
+                                            Printers
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="inline">
+                                            <input type="checkbox">
+                                            <span class="input"></span>
+                                            Repair Partss
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="inline">
+                                            <input type="checkbox">
+                                            <span class="input"></span>
+                                            Camera
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="inline">
+                                            <input type="checkbox">
+                                            <span class="input"></span>
+                                            Monitors
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="inline">
+                                            <input type="checkbox">
+                                            <span class="input"></span>
+                                            Office
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="inline">
+                                            <input type="checkbox">
+                                            <span class="input"></span>
+                                            Tablets
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="block-content">
+                            <div class="filter-options-item filter-categori">
+                                <div class="filter-options-title">
+                                    Brand
+                                </div>
+                                <div class="filter-options-content">
+                                    <ul>
+                                        <li>
+                                            <label class="inline">
+                                                <input type="checkbox">
+                                                <span class="input"></span>
+                                                Vinsmart
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="inline">
+                                                <input type="checkbox">
+                                                <span class="input"></span>
+                                                Sony
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="inline">
+                                                <input type="checkbox">
+                                                <span class="input"></span>
+                                                Oppo
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="inline">
+                                                <input type="checkbox">
+                                                <span class="input"></span>
+                                                SamSung
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="inline">
+                                                <input type="checkbox">
+                                                <span class="input"></span>
+                                                Apple
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="block-content">
+                                    <div class="filter-options-item filter-categori">
+                                        <div class="filter-options-title">
+                                            Color
+                                        </div>
+                                        <div class="filter-options-content filter-color">
+                                            <ul>
+                                                <li>
+                                                    <label class="inline">
+                                                        <input type="checkbox">
+                                                        <span class="input"></span>
+                                                        Red
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="inline">
+                                                        <input type="checkbox">
+                                                        <span class="input"></span>
+                                                        Black
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="inline">
+                                                        <input type="checkbox">
+                                                        <span class="input"></span>
+                                                        Gray
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="inline">
+                                                        <input type="checkbox">
+                                                        <span class="input"></span>
+                                                        White
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <label class="inline">
+                                                        <input type="checkbox">
+                                                        <span class="input"></span>
+                                                        Yellow
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="inline">
+                                                        <input type="checkbox">
+                                                        <span class="input"></span>
+                                                        Blue
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="inline">
+                                                        <input type="checkbox">
+                                                        <span class="input"></span>
+                                                        Pink
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label class="inline">
+                                                        <input type="checkbox">
+                                                        <span class="input"></span>
+                                                        Green
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </aside>
+
+        <div id="bg-fade"></div>
+        <div id="popup">
+            <div  class="icon-popup text-right" style="font-size: 30px;" onclick="closePopup()" >
+                <i class="fas fa-window-close"></i>
+            </div>
+            <div class="products-items-popup">
+                <div class="product-img">
+                    <a href="#">
+                        <img src="../imgs/Pictures/p10.jpg"/>
+                    </a>
+                </div>
+                <div class="product-popup-inf">
+                    <div class="product-name">
+                        <a href="#">Smartphone 4GB</a>
+                    </div>
+                    <span class="star-ratting">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span class="review">5 Review(s)</span>
+                    </span>
+                    <div class="product-infomation-popup">
+                        Description Our new HPB12 / A12 battery is rated at 2000mAh and designed to power up Black and
+                        Decker FireStorm line of 12V tools allowing...
+                    </div>
+                    <div class="product-price-popup">
+                        <span class="price-popup">
+                            <ins>299.00$</ins>
+                            <del>259.00$</del>
+                        </span>
+                        <div class="quantity-popup">
+                            <h5 class="quantity-title">Quantity</h5>
+                            <div class="button-add">
+                                <input type="text" value="1" title="Qty" id="text" class="input-text qty text" size="1">
+                                <a href="#" class="sign plus">
+                                    <i class="fas fa-plus" onclick="plus()"></i>
+                                </a>
+                                <a href="#" class="sign minus">
+                                    <i class="fas fa-minus" onclick="minus()"></i>
+                                </a>
+                            </div>
+                            <a href="#" class="btn-add-to-cart">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function openPopup(){
+            document.getElementById("bg-fade").style.display="block";
+            document.getElementById("popup").style.display="block";
+        }
+        function closePopup(){
+            document.getElementById("bg-fade").style.display="none";
+            document.getElementById("popup").style.display="none";
+        }
+        function  plus(){
+            var t = document.getElementById("text").value;
+            document.getElementById("text").value =parseInt(t)+1;
+        }
+        function minus(){
+            var t = document.getElementById("text").value;
+            if(parseInt(t)>=1){
+                document.getElementById("text").value = parseInt(t)-1;
+            }
+        }
+    </script>
+</main>
+<footer class="site-footer footer-opt-2">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-1.jpg"/>
+                </div>
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-2.jpg"/>
+                </div>
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-3.jpg">
+                </div>
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-4.jpg">
+                </div>
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-5.jpg">
+                </div>
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-1.jpg"/>
+                </div>
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-2.jpg"/>
+                </div>
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-3.jpg">
+                </div>
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-4.jpg">
+                </div>
+                <div class="item">
+                    <img src="../imgs/Pictures/item-instagram-5.jpg">
+                </div>
+            </div>
+        </div>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:0,
+                nav:false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            })
+        </script>
+    </div>
+    <div class="footer-column equal-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 equal-elem" style="height: 279px">
+                    <div class="logo-footer">
+                        <img src="../imgs/Pictures/logo-light.png">
+                    </div>
+                    <div class="footer-contacts">
+                        <div class="contact-info">
+                            <p>Nullam tristique tortor nibh, in viverra libero sollicitudin ac.
+                                Suspendisse quis lacinia ipsum. Etiam scelerisque sit amet lectus quis lacinia. Sed.</p>
+                        </div>
+                        <span class="contacts-info info-address ">
+                            <i class="fas fa-map-marker-alt">
+                            218 Fifth Avenue, HeavenTower NewYork City
+                            </i>
+                        </span>
+                        <span class="contacts-info info-phone">
+                           <i class="fas fa-phone-alt">
+                            (+68) 123 456 7890
+                           </i>
+                        </span>
+                        <span class="contacts-info info-support">
+                            <i class="fas fa-envelope">
+                            Hot-Support@Dagon.com
+                            </i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 equal-elem" style="height: 279px">
+                    <div class="links">
+                        <h3 class="title-of-section">My account</h3>
+                        <ul>
+                            <li>
+                                <a href="#">View Cart</a>
+                            </li>
+                            <li>
+                                <a href="#">My Wishlist</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Track My Orders</a>
+                            </li>
+                            <li>
+                                <a href="#">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 equal-elem" style="height: 279px">
+                    <div class="links">
+                        <h3 class="title-of-section">Infomation</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Specials</a>
+                            </li>
+                            <li>
+                                <a href="#">New products</a>
+                            </li>
+                            <li>
+                                <a href="#">Best sellers</a>
+                            </li>
+                            <li>
+                                <a href="#">Our stores</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Sitemap</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 equal-elem" style="height: 279px">
+                    <div class="links">
+                        <h3 class="title-of-section">Newsletter</h3>
+                        <span class="span-newsletter">
+                            Get notified of new products, limited releases, and more.
+                        </span>
+                        <div class="newsletter-form">
+                            <form id="newsletter-validate-detail" class="form subscribe">
+                                <div class="control">
+                                    <input type="email" placeholder="Enter your email" id="newsletter" name="email" class="input-subscribe">
+                                    <button type="submit" title="Subscribe" class="btn subscribe">
+                                        <span>Sign up</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="socials">
+                            <a href="#" class="social">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social">
+                                <i class="fab fa-pinterest" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="social">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <div class="container">
+            <div class="copyright-right">
+                © Copyright 2020
+                <span>Dragon</span>
+                . All Rights Reserved.
+            </div>
+            <div class="pay-men">
+                <a href="#">
+                    <img src="../imgs/Pictures/pay1.jpg" alt="pay1">
+                </a>
+                <a href="#">
+                    <img src="../imgs/Pictures/pay2.jpg" alt="pay2">
+                </a>
+                <a href="#">
+                    <img src="../imgs/Pictures/pay3.jpg" alt="pay3">
+                </a>
+                <a href="#">
+                    <img src="../imgs/Pictures/pay4.jpg" alt="pay4">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

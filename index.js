@@ -38,6 +38,21 @@ app.get("/dem-so-nguoi",function(req,res){
 app.get("/test",function (req,res){
     res.render("Home")
 });
+app.get("/shop",function (req,res){
+    res.render("Shop")
+});
+app.get("/cart",function (req,res){
+    res.render("shoppingcart")
+});
+app.get("/head",function (req,res){
+    res.render("header")
+});
+app.get("/check",function (req,res){
+    res.render("checkout")
+});
+app.get("/contact",function (req,res){
+    res.render("contact")
+});
 app.get("/checkout",function (req,res){
     res.render("checkout")
 })
