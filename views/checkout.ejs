@@ -73,6 +73,7 @@
                         <input class="ip-text" name="LastName" required type="text" placeholder="Your last name"/>
                     </label>
                 </div>
+
                 <div class="form-group">
                     <label>Phone numbers*<br>
                         <input class="ip-number" name="phone" required type="text" placeholder="Your phone"/>
@@ -97,20 +98,11 @@
                     </p>
                 </div>
                 <div>
-                    <div class="form-group">
-                        <label class="check"><input type="checkbox">
-                            Direct bank transfer
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <label class="check"><input type="checkbox">
-                            Cash on delivery
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <label class="check"><input type="checkbox">
-                            Paypal
-                        </label>
+                    <div class="form-group p-method">
+                        <label></label>
+                        <label><input name="p-m" type="radio" value="bank"/>Direct bank transfer</label>
+                        <label><input name="p-m" type="radio" value="cash"/>Cash on delivery</label>
+                        <label><input name="p-m" type="radio" value="onl"/>Paypal</label>
                     </div>
                     <p>
                         You can pay with your credit<br>

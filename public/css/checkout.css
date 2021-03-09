@@ -8,7 +8,12 @@
     width: 100%;
     margin-bottom: 15px;
 }
-
+.p-method{
+    margin-left:15px;
+}
+input[type="radio"]{
+    padding-left: 10px;
+}
 
 input[type="text"]{
     margin-top: 10px;
